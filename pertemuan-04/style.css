@@ -44,7 +44,7 @@
 
            main {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr;
             gap: 16px;
            }
 
@@ -122,6 +122,7 @@
             padding: 20px;
             margin: 0;
             font-family: Arial, sans-serif;
+            grid-column: 1 / -1;
           }
 
           #contact h2 {
@@ -180,5 +181,12 @@
 
           footer p {
             margin: 0;
+          }
+
+          @media (min-width: 768px) {
+            /*aturan CSSuntuk viewport dengan lebar minimal 768px */
+            main {
+              grid-template-columns: 1fr 1fr;
+            }
           }
 
