@@ -1,4 +1,15 @@
 
+          * {
+            box-sizing: border-box;
+          }
+
+          #home {
+            background-color: #ffffff;
+            border: 1px solid #d0d7de;
+            padding: 20px;
+            margin: 0;
+          }
+          
           #about {
             background-color:#ffffff;
             border: 1px solid #d0d7de;
