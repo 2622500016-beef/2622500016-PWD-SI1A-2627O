@@ -25,6 +25,11 @@
             font-size: 28px;
            }
 
+           nav ul {
+            display: flex;
+            flex-direction: column;
+           }
+
            section {
             width: 100%;
            }
