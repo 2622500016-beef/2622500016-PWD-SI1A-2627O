@@ -188,5 +188,16 @@
             main {
               grid-template-columns: 1fr 1fr;
             }
+
+            nav ul {
+              flex-direction: row;
+              justify-content: flex-start;
+              align-items: center;
+              gap: 16px;
+            }
+
+            #contact { 
+              grid-column: 1 / -1;
+            }
           }
 
