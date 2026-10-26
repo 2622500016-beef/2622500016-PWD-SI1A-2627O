@@ -152,8 +152,8 @@ $fokusProgramStudi = "Belum ditentukan";
           Kunjungi 
           <a target="_blank" href="https://github.com/<?= PROFIL_GITHUB ?>">profil GitHub saya</a>. 
         </p>
+        <form id="contactForm" action="index.php" method="get" novalidate>
 
-        <form  id="contactForm" action="index.html" method="get" novalidate>
           <div class="form-group">
             <label for="nama">Nama Lengkap</label><br />
 
@@ -240,7 +240,7 @@ required />
     </main>
 
     <footer>
-      <p>&copy; 2026 Ahmad Nizar Fadila [2622500016]</p>
+      <p>&copy; <?= date("Y") ?> <?php echo $namaMahasiswa; ?> [<?= $nim ?>]</p> 
     </footer>
     <script src="script.js"></script>
   </body>
