@@ -77,7 +77,9 @@ $fokusProgramStudi = "Belum ditentukan";
     <main>
       <section id="home">
         <h2>Selamat Datang</h2>
-        <p>Halo, saya Ahmad Nizar Fadila. Saya sedang mempelajari Pemrograman Web Dasar.</p>
+        <p>Halo, saya <strong><?php echo $namaMahasiswa; ?></strong>. Saya sedang mempelajari matakuliah 
+<strong><?php print NAMA_MATA_KULIAH; ?></strong> pada tahun akademik <?php echo $tahunAkademik; 
+?>.</p> 
 
         <img src="img/profile.png" alt="Foto profil Ahmad Nizar Fadila" />
       </section>
@@ -104,7 +106,7 @@ $fokusProgramStudi = "Belum ditentukan";
 
         <p>
           Kunjungi 
-          <a href="https://github.com/username">profil GitHub saya</a>.
+          <a target="_blank" href="https://github.com/<?= PROFIL_GITHUB ?>">profil GitHub saya</a>. 
         </p>
 
         <form  id="contactForm" action="index.html" method="get" novalidate>
