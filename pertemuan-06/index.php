@@ -80,7 +80,6 @@ $fokusProgramStudi = "Belum ditentukan";
         <p>Halo, saya <strong><?php echo $namaMahasiswa; ?></strong>. Saya sedang mempelajari matakuliah 
         <strong><?php print NAMA_MATA_KULIAH; ?></strong> pada tahun akademik <?php echo $tahunAkademik; 
     ?>.</p>
-     
 
         <img src="img/profile.png" alt="Foto profil Ahmad Nizar Fadila" />
       </section>
@@ -96,7 +95,33 @@ $fokusProgramStudi = "Belum ditentukan";
           <p>Semester: <?php echo $semester . " (" . $keteranganSemester . ")"; ?></p>
           <p>Sisa semester hingga batas: <?php echo $sisaSemester; ?></p>
 
-          <h3>Target Belajar</h3>
+          <h3>Target Belajar (perulanngan for)</h3>
+          <ol>
+            <?php
+            // Perulangan for tanpa array; materi larik dibahas pada P9.
+            for ($i = 1; $i <= 5; $i++) {
+              echo "<li>Target belajar ke-" . $i . ": ";
+              switch ($i) {
+                case 1:
+                  echo "Memahami sintaks dasar PHP.";
+                  break;
+                case 2:
+                  echo "Menggunakan variabel dan konstanta.";
+                  break;
+                case 3:
+                  echo "Menerapkan operator dan percabangan.";
+                  break;
+                case 4:
+                  echo "Menggunakan perulangan for dan while.";
+                  break;
+                default:
+                  echo "Belum dipetakan";
+                  break;
+              }
+              echo "</li>";
+            }
+            ?>
+          </ol>
 
           <o1>
             <li>Memahami struktur HTML5.</li>
