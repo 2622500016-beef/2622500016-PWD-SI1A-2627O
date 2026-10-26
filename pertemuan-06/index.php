@@ -78,8 +78,9 @@ $fokusProgramStudi = "Belum ditentukan";
       <section id="home">
         <h2>Selamat Datang</h2>
         <p>Halo, saya <strong><?php echo $namaMahasiswa; ?></strong>. Saya sedang mempelajari matakuliah 
-<strong><?php print NAMA_MATA_KULIAH; ?></strong> pada tahun akademik <?php echo $tahunAkademik; 
-?>.</p> 
+        <strong><?php print NAMA_MATA_KULIAH; ?></strong> pada tahun akademik <?php echo $tahunAkademik; 
+    ?>.</p>
+     
 
         <img src="img/profile.png" alt="Foto profil Ahmad Nizar Fadila" />
       </section>
@@ -89,6 +90,10 @@ $fokusProgramStudi = "Belum ditentukan";
 
         <article>
           <h3>Profil Singkat</h3>
+          <p>Program Studi: <?php echo $namaProdi . " (" . $programStudi . ")"; ?></p>
+          <p>Fokus program studi: <?php echo $fokusProgramStudi; ?></p>
+          <p>Status mahasiswa: <?php echo $statusAktif ? "Aktif" : "Tidak aktif"; ?></p>
+          <p>Semester: <?php echo $semester . " (" . $keteranganSemester . ")"; ?></p>
           <p>Sisa semester hingga batas: <?php echo $sisaSemester; ?></p>
 
           <h3>Target Belajar</h3>
