@@ -89,7 +89,7 @@ $fokusProgramStudi = "Belum ditentukan";
 
         <article>
           <h3>Profil Singkat</h3>
-          <p>Saya mahasiswa Program Studi Sistem Informasi.</p>
+          <p>Sisa semester hingga batas: <?php echo $sisaSemester; ?></p>
 
           <h3>Target Belajar</h3>
 
