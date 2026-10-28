@@ -3,9 +3,9 @@
 // Bagian 1: Variabel dan konstanta
 $nim = "2622500016";
 $namaMahasiswa = "Ahmad Nizar Fadila";
-$programStudi = "Sistem Informasi";
+$programStudi = "SI";
 $tahunAkademik = "2026/2027";
-$semester = 2;
+$semester = 1;
 $ipk = 3.75;
 $statusAktif = true;
 $catatanTambahan = null;
@@ -19,7 +19,7 @@ $statusSemester = ($semesterValid && $statusAktif) ? "Sesuai rentang" : "Perlu d
 // Bagian 3: Percabangan if-elseif-else
 if ($semester < 3) {
 $keteranganSemester = "Semester awal";
-} elseif ($semester <= 6) {
+} elseif ($semester <= 7) {
 $keteranganSemester = "Semester menengah";
 } else {
 $keteranganSemester = "Semester akhir";
@@ -126,23 +126,18 @@ $fokusProgramStudi = "Belum ditentukan";
               echo "</li>";
             }
             ?>
+        </article>
+        <article> 
           <h3>Semester (Perulangan while):</h3>
           <ol>
             <?php
             $nomorSemester = 1;
             while ($nomorSemester <= 3) {
               echo "<li>Semester " . $nomorSemester . "</li>";
-              $nomorSemester++; // operator penugasan
+              $nomorSemester++;
             }
             ?>
           </ol>
-
-          <o1>
-            <li>Memahami struktur HTML5.</li>
-            <li>Menyusun halaman web semantik.</li>
-            <li>Memvalidasi dokumen HTML.</li>
-          </o1>
-        </article>
       </section>
 
       <section id="contact">
