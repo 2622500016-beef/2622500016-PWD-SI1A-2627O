@@ -78,7 +78,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <div class="gallery">
 
                     <div class="card">
-                        <img src="img/pantai-parai.jpg" alt="Americano">
+                        <img src="img/Americano.jpg" alt="Americano">
                         <h3>Americano</h3>
                         <p>
                             Espresso dengan air panas, bercita rasa kuat dan khas.
@@ -86,7 +86,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     </div>
 
                     <div class="card">
-                        <img src="img/pantai-matras.jpg" alt="Espresso">
+                        <img src="img/Espresso.jpg" alt="Espresso">
                         <h3>Espresso</h3>
                         <p>
                             Kopi pekat dengan aroma kuat dan rasa intens.
@@ -94,7 +94,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     </div>
 
                     <div class="card">
-                        <img src="img/pantai-tanjung.jpg" alt="Cappuccino">
+                        <img src="img/Cappuccino.jpg" alt="Cappuccino">
                         <h3>Cappuccino</h3>
                         <p>
                             Perpaduan espresso, susu panas, dan busa lembut.
@@ -102,7 +102,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     </div>
 
                     <div class="card">
-                        <img src="img/pantai-penyusuk.jpg" alt="Kopi Susu">
+                        <img src="img/KopiSusu.jpg" alt="Kopi Susu">
                         <h3>Kopi Susu</h3>
                         <p>
                             Perpaduan kopi dan susu dengan rasa creamy.
@@ -111,14 +111,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
                 </div>
 
-                <h2 class="judul-tambahan">Mengapa Mengunjungi Pantai Bangka?</h2>
+                <h2 class="judul-tambahan">Mengapa Memilih Kedai Kopi Nizar?</h2>
 
                 <p>
-                    Pulau Bangka memiliki keindahan wisata bahari
-                    yang menarik untuk dikunjungi. Keindahan pasir
-                    putih, laut biru, serta batu granit menjadi
-                    ciri khas pantai-pantai di Bangka.
-                    Mari berwisata dan menjaga kebersihan alam.
+                    Nikmati pengalaman menikmati kopi dengan beragam pilihan menu, 
+                    cita rasa istimewa, dan pelayanan terbaik. 
+                    Kedai Kopi Nizar menjadi tempat yang tepat untuk bersantai, 
+                    berbincang, dan menghabiskan waktu bersama orang-orang terdekat.
                 </p>
 
             <?php } elseif ($page == 'profile') { ?>
