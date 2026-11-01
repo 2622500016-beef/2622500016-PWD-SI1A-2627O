@@ -125,7 +125,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <h2>Profile Pembuat Website</h2>
 
                 <div class="profile-box">
-                    <img src="img/profile.jpg" alt="Foto Profil">
+                    <img src="img/profile.png" alt="Foto Profil">
 
                     <h3>Biodata Diri</h3>
 
@@ -133,21 +133,23 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <p><b>NIM:</b> 2622500016</p>
                     <p><b>Program Studi:</b> Sistem Informasi</p>
                     <p><b>Kelas:</b> SI1A</p>
-                    <p><b>Universitas:</b> [Isi nama kampus]</p>
+                    <p><b>Universitas:</b> Institut Sains Bisnis Atma Luhur Pangkal Pinang </p>
 
                     <p>
-                        Website ini dibuat untuk memperkenalkan
-                        keindahan wisata pantai yang ada di Pulau Bangka.
+                        <b>"Website ini dibuat untuk memperkenalkan Kedai Kopi Nizar, 
+                           tempat menikmati kopi berkualitas dengan cita rasa khas 
+                           dan suasana nyaman bagi para pecinta kopi."
+                        </b>
                     </p>
                 </div>
 
             <?php } elseif ($page == 'registrasi') { ?>
 
-                <h2>Form Registrasi Wisata</h2>
+                <h2>Form Registrasi Kedai Kopi Nizar</h2>
 
                 <p>
                     Silakan isi formulir berikut untuk melakukan
-                    pendaftaran kunjungan wisata.
+                    Pemesanan di Kedai Kopi Nizar.
                 </p>
 
                 <?php if ($pesan != '') { ?>
@@ -163,27 +165,31 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <input type="text" name="nama"
                            placeholder="Masukkan nama lengkap">
 
-                    <label>Email</label>
-                    <input type="email" name="email"
-                           placeholder="Masukkan email">
+                    <label>Nomar Antrian</label>
+                    <input type="text" name="Antrian"
+                           placeholder="Masukkan nomor antrian">
 
                     <label>Nomor Telepon</label>
                     <input type="text" name="telepon"
                            placeholder="Masukkan nomor telepon">
 
-                    <label>Tanggal Kunjungan</label>
+                    <label>Tanggal Pemesanan</label>
                     <input type="date" name="tanggal">
 
-                    <label>Pilih Pantai</label>
-                    <select name="pantai">
-                        <option value="">-- Pilih Pantai --</option>
-                        <option value="Parai Tenggiri">Pantai Parai Tenggiri</option>
-                        <option value="Matras">Pantai Matras</option>
-                        <option value="Tanjung Pesona">Pantai Tanjung Pesona</option>
-                        <option value="Penyusuk">Pantai Penyusuk</option>
+                    <label>Jumlah</label>
+                    <input type="number" name="jumlah" id="jumlah"
+                            placeholder="Masukkan jumlah pesanan"
+                            min="1" required>
+                    
+                    <label>Pilih Menu</label>
+                    <select name="Menu">
+                        <option value="Americano">Americano</option>
+                        <option value="Espresso">Espresso</option>
+                        <option value="Cappuccino">Cappuccino</option>
+                        <option value="Kopi Susu">Kopi Susu</option>
                     </select>
 
-                    <button type="submit">Kirim Registrasi</button>
+                    <button type="submit">Kirim Pesanan</button>
                     <button type="reset" class="batal">Batal</button>
 
                 </form>
@@ -203,7 +209,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <footer class="footer">
         ©2622500016_Ahmad_Nizar_Fadila_SI1A_UTS Pemrograman Web Dasar
         <br>
-        <small>Pesona Pantai Bangka - <?php echo date('Y'); ?></small>
+        <small>Kedai Kopi Nizar - <?php echo date('Y'); ?></small>
     </footer>
 
 </div>
