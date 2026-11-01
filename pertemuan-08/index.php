@@ -78,38 +78,34 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <div class="gallery">
 
                     <div class="card">
-                        <img src="img/pantai-parai.jpg" alt="Pantai Parai">
-                        <h3>Pantai Parai Tenggiri</h3>
+                        <img src="img/pantai-parai.jpg" alt="Americano">
+                        <h3>Americano</h3>
                         <p>
-                            Pantai dengan pasir putih, air laut
-                            jernih, dan batu granit yang indah.
+                            Espresso dengan air panas, bercita rasa kuat dan khas.
                         </p>
                     </div>
 
                     <div class="card">
-                        <img src="img/pantai-matras.jpg" alt="Pantai Matras">
-                        <h3>Pantai Matras</h3>
+                        <img src="img/pantai-matras.jpg" alt="Espresso">
+                        <h3>Espresso</h3>
                         <p>
-                            Pantai yang terkenal dengan garis
-                            pantai panjang dan pemandangan laut.
+                            Kopi pekat dengan aroma kuat dan rasa intens.
                         </p>
                     </div>
 
                     <div class="card">
-                        <img src="img/pantai-tanjung.jpg" alt="Pantai Tanjung Pesona">
-                        <h3>Pantai Tanjung Pesona</h3>
+                        <img src="img/pantai-tanjung.jpg" alt="Cappuccino">
+                        <h3>Cappuccino</h3>
                         <p>
-                            Menawarkan panorama laut yang indah
-                            dengan susunan batu granit.
+                            Perpaduan espresso, susu panas, dan busa lembut.
                         </p>
                     </div>
 
                     <div class="card">
-                        <img src="img/pantai-penyusuk.jpg" alt="Pantai Penyusuk">
-                        <h3>Pantai Penyusuk</h3>
+                        <img src="img/pantai-penyusuk.jpg" alt="Kopi Susu">
+                        <h3>Kopi Susu</h3>
                         <p>
-                            Pantai di wilayah Belinyu dengan
-                            pemandangan pulau-pulau kecil.
+                            Perpaduan kopi dan susu dengan rasa creamy.
                         </p>
                     </div>
 
