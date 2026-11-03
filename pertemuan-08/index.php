@@ -11,14 +11,14 @@ $pesan = '';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $nama = isset($_POST['nama']) ? trim($_POST['nama']) : '';
-    $email = isset($_POST['email']) ? trim($_POST['email']) : '';
+    $email = isset($_POST['antrian']) ? trim($_POST['antrian']) : '';
     $telepon = isset($_POST['telepon']) ? trim($_POST['telepon']) : '';
     $tanggal = isset($_POST['tanggal']) ? trim($_POST['tanggal']) : '';
 
     if ($nama == '' || $email == '' || $telepon == '' || $tanggal == '') {
         $pesan = 'Mohon lengkapi semua data!';
-    } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $pesan = 'Format email tidak valid!';
+    } elseif (!filter_var($antrian, FILTER_VALIDATE_EMAIL)) {
+        $pesan = 'Mohon isi nomor antrian!';
     } else {
         $pesan = 'Registrasi berhasil! Terima kasih telah mendaftar, ' .
                  htmlspecialchars($nama) . '.';
@@ -52,7 +52,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <div class="main-layout">
 
         <nav class="navigasi">
-            <h3>MENU</h3>
 
             <ul>
                 <li><a href="index.php?page=home">🏠 Home</a></li>
@@ -205,7 +204,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     </div>
 
-    <!-- FOOTER -->
     <footer class="footer">
         ©2622500016_Ahmad_Nizar_Fadila_SI1A_UTS Pemrograman Web Dasar
         <br>

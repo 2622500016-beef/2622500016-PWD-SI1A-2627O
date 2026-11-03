@@ -1,8 +1,6 @@
-// Pesan ketika halaman selesai dibuka
 document.addEventListener("DOMContentLoaded", function () {
-    console.log("Website Pesona Pantai Bangka berhasil dibuka!");
+    console.log("Website Kedai Kopi Nizar berhasil dibuka!");
 
-    // Efek konfirmasi ketika formulir dikirim
     const form = document.querySelector(".form-registrasi");
 
     if (form) {
