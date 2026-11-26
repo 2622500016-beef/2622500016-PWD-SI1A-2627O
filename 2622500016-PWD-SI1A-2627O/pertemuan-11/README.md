@@ -15,3 +15,4 @@ PADA PERTEMUAN-11 SAYA MELAKUKAN
 13. menentukan kueri SELECT data kontak
 14. menjalankan kueri SELECT menggunakan MySQLi
 15. menambahkan pemeriksaan kegagalan kueri SELECT
+16. mengambil hasil SELECT menggunakan mysqli_fetch_assoc

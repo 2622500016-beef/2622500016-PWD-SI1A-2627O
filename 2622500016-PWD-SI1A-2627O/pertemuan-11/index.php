@@ -10,6 +10,12 @@ require_once("koneksi.php"); # P11
  if (!$hasil) {   die("Kueri SELECT gagal dijalankan.");
   } 
 
+// P11: Mengambil hasil kueri sebagai larik asosiatif.
+ $dataKontak = [];
+  while ($baris = mysqli_fetch_assoc($hasil)) {
+     $dataKontak[] = $baris;
+     } 
+
 
 // P7: penggunaan POST 
 $nama = trim((string) ($_POST['nama'] ?? '')); 
