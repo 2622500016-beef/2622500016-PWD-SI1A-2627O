@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Nov 26, 2026 at 09:31 AM
+-- Generation Time: Nov 26, 2026 at 01:41 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -44,7 +44,7 @@ CREATE TABLE `tbl_kontak_2622500016` (
 --
 
 INSERT INTO `tbl_kontak_2622500016` (`id`, `nama`, `email`, `semester`, `tanggal`, `jenis_pesan`, `minat`, `prodi`, `pesan`) VALUES
-(1, 'Ahmad  nizar  fadila', 'nizar@atmaluhur.ac.id', 2, '2026-11-26', 'saran', 'HTML, CSS', 'TI', 'ini percobaan'),
+(1, 'Ahmad Nizar Fadila', 'nizarrr@atmaluhur.ac.id', 2, '2026-11-26', 'saran', 'HTML, CSS', 'SI', 'ini percobaan'),
 (2, 'Andi', 'andi@example.com', 2, '2026-11-26', 'pertanyaan', 'HTML, CSS', 'TI', 'Saya ingin belajar pemrograman web.');
 
 --

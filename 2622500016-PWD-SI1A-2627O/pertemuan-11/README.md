@@ -18,4 +18,4 @@ PADA PERTEMUAN-11 SAYA MELAKUKAN
 16. mengambil hasil SELECT menggunakan mysqli_fetch_assoc
 17. memeriksa hasil pengambilan data kontak
 18. Menampilkan data kontak dari basis git push data
-19. 
+19. Menambahkan ekspor basis data praktikum
