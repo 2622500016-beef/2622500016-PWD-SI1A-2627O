@@ -11,3 +11,4 @@ PADA PERTEMUAN-11 SAYA MELAKUKAN
 9. menguji penanganan kegagalan koneksi PHP-MySQ
 10. mengintegrasikan berkas koneksi pada index P11
 11. memeriksa alur ketersediaan koneksi pada index P11
+12. menguji integrasi koneksi PHP- MySQL pada index P11
