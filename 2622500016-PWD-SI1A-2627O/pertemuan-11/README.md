@@ -14,3 +14,4 @@ PADA PERTEMUAN-11 SAYA MELAKUKAN
 12. menguji integrasi koneksi PHP- MySQL pada index P11
 13. menentukan kueri SELECT data kontak
 14. menjalankan kueri SELECT menggunakan MySQLi
+15. menambahkan pemeriksaan kegagalan kueri SELECT
