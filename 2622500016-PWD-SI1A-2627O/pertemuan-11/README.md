@@ -7,3 +7,4 @@ PADA PERTEMUAN-11 SAYA MELAKUKAN
 5. menentukan parameter koneksi basis data P11
 6. mengatur pelaporan kesalahan MySQLi P11
 7. mengimplementasikan koneksi PHP- MySQL menggunakan MySQLi
+8. menguji koneksi dari PHP ke MySQL dengan file sementara Bernama uji_koneksi.php
